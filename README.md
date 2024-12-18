@@ -1,2 +1,8 @@
-# OurCarsForYou
-The project uses HTML for structuring the page, CSS for styling and layout, and JavaScript for adding interactivity and dynamic behavior. React is used to build interactive user interfaces, while Font Awesome is used for adding stylish icons, and Bootstrap is utilized for responsive design and faster development.
+# React + Vite
+
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+
+Currently, two official plugins are available:
+
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh

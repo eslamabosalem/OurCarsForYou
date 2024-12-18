@@ -1,0 +1,15 @@
+footer{
+    background-color: #051C34;
+}
+
+@media only screen and (max-width: 768px) {
+    .info,.links,.CR,.flow ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    }
+}
+
+.links li{
+    cursor: pointer;
+}

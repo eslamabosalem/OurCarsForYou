@@ -1,0 +1,14 @@
+.card-img-top{
+    height: 120px;
+    transition: 1s;
+}
+
+.cars-card{
+    overflow: hidden;
+}
+
+.cars-card:hover{
+    .card-img-top{
+        scale: 1.3;
+    }
+}

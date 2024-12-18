@@ -1,0 +1,36 @@
+.article{
+    max-width: 20%;
+    margin-left: 10%;
+}
+
+.AnimeCar{
+    max-width: 75%;
+    animation: MyAnime 2s  alternate;
+
+}
+@keyframes MyAnime {
+    0%{display:none;max-width:20%}
+    to{display:inline;max-width:75%}}
+
+
+@media only screen and (max-width: 768px) {
+    .Sec1-con{
+        flex-direction: column-reverse;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+        .AnimeCar {
+            align-self: flex-end;
+            max-width: 75%;
+            animation-duration: 2s;
+            animation-name: MyAnime;
+        }
+    }
+
+    @media only screen and (max-width: 768px) {
+        .article {
+            max-width: 100%;
+            margin: 0 5vw;
+        }
+    }

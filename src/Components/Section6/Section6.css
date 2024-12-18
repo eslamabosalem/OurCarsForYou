@@ -1,0 +1,18 @@
+.Sec-6{
+    background-image: url(../../assets/imges/landing-page/sec-6/bg-sec6.png);
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-size: 20%;
+}
+
+.CD-img {
+    height: 350px;
+}
+
+.pop-btn{
+    background-color: #1572d31a;
+    color: #0b5ed7;
+    border: 1px solid #0b5ed7;
+    padding: 5px 20px;
+    font-weight: bold;
+}
